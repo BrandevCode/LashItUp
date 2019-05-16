@@ -144,7 +144,8 @@ section h2 {
 
 #mainNav .navbar-toggler {
 	font-size: 80%;
-	padding: .8rem
+	padding: .8rem;
+	background-color: #af7c7c!important
 }
 
 @media (min-width:992px) {
@@ -382,8 +383,8 @@ a:hover {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #fff2f2;
-	border-color: #fff2f2
+	background-color: #af7c7c;
+	border-color: #af7c7c
 }
 
 .btn-secondary {
@@ -394,7 +395,7 @@ a:hover {
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-	background-color: #1a252f;
-	border-color: #1a252f
+	background-color: #af7c7c;
+	border-color: #af7c7c
 }
 
