@@ -7,8 +7,12 @@
  */
 
 body {
-	font-family: Lato
+	font-family: Garamond
 }
+
+.lead {
+	font-size: 24px;
+  }
 
 h1,
 h2,
@@ -17,7 +21,7 @@ h4,
 h5,
 h6 {
 	font-weight: 700;
-	font-family: Trajan Pro
+	font-family: Times
 }
 
 hr.star-dark,
@@ -39,7 +43,7 @@ hr.star-light:after {
 	top: -.8em;
 	display: inline-block;
 	padding: 0 .25em;
-	content: '\f005';
+	content: '\f5bb';
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 2em
@@ -51,7 +55,7 @@ hr.star-light {
 
 hr.star-light:after {
 	color: #fff;
-	background-color: #ffe1e1
+	background-color: #fff2f2
 }
 
 hr.star-dark {
@@ -109,7 +113,7 @@ section h2 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-weight: 700;
-	font-family: Trajan Pro
+	font-family: Times
 }
 
 #mainNav .navbar-brand {
@@ -126,7 +130,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #ffe1e1
+	color: #fff2f2
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -135,7 +139,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #ffe1e1
+	color: #fff2f2
 }
 
 #mainNav .navbar-toggler {
@@ -189,7 +193,7 @@ header.masthead h1 {
 
 header.masthead h2 {
 	font-size: 1.3rem;
-	font-family: Lato
+	font-family: Garamond
 }
 
 @media (min-width:992px) {
@@ -322,7 +326,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-	color: #ffe1e1
+	color: #fff2f2
 }
 
 form .row:first-child .floating-label-form-group {
@@ -341,13 +345,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-	color: #ffe1e1
+	color: #fff2f2
 }
 
 a:active,
 a:focus,
 a:hover {
-	color: #ffe1e1
+	color: #fff2f2
 }
 
 .btn {
@@ -355,7 +359,7 @@ a:hover {
 }
 
 .bg-primary {
-	background-color: #ffe1e1!important
+	background-color: #fff2f2!important
 }
 
 .bg-secondary {
@@ -363,23 +367,23 @@ a:hover {
 }
 
 .text-primary {
-	color: #ffe1e1!important
+	color: #fff2f2!important
 }
 
 .text-secondary {
-	color: #c49191!important
+	color: #b38c38!important
 }
 
 .btn-primary {
-	background-color: #ffe1e1;
-	border-color: #ffe1e1
+	background-color: #fff2f2;
+	border-color: #fff2f2
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #ffe1e1;
-	border-color: #ffe1e1
+	background-color: #fff2f2;
+	border-color: #fff2f2
 }
 
 .btn-secondary {

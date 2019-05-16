@@ -5,7 +5,11 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Garamond';
+}
+
+#lead {
+  font-size: 100px;
 }
 
 h1,
@@ -14,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 100;
   font-family: 'Montserrat';
 }
 
@@ -37,7 +41,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f5bb';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
@@ -49,7 +53,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #ffffff;
+  background-color: #18BC9C;
 }
 
 hr.star-dark {
@@ -124,7 +128,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ffffff;
+  color: #18BC9C;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -132,7 +136,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #ffffff;
+  color: #18BC9C;
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +161,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #ffffff;
+    background: #18BC9C;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #ffffff;
+    background: #18BC9C;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -184,7 +188,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Garamond';
 }
 
 @media (min-width: 992px) {
@@ -216,7 +220,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9)
+  background-color: rgba(24, 188, 156, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -317,7 +321,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #ffffff;
+  color: #18BC9C;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -336,7 +340,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #ffffff;
+  color: #18BC9C;
 }
 
 a:focus, a:hover, a:active {
@@ -348,7 +352,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #ffffff !important;
+  background-color: #18BC9C !important;
 }
 
 .bg-secondary {
@@ -356,7 +360,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #ffffff !important;
+  color: #18BC9C !important;
 }
 
 .text-secondary {
@@ -364,8 +368,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
