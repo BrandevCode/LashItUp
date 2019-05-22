@@ -54,7 +54,7 @@ hr.star-light {
 
 hr.star-light:after {
 	color: #fff;
-	background-color: #fff2f2
+	background-color: #f1f1f1
 }
 
 hr.star-dark {
@@ -129,7 +129,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -138,7 +138,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 #mainNav .navbar-toggler {
@@ -326,7 +326,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 form .row:first-child .floating-label-form-group {
@@ -345,13 +345,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 a:active,
 a:focus,
 a:hover {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 .btn {
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .bg-primary {
-	background-color: #fff2f2!important
+	background-color: #f1f1f1!important
 }
 
 .bg-secondary {
@@ -371,7 +371,7 @@ a:hover {
 }
 
 .text-primary {
-	color: #fff2f2!important
+	color: #f1f1f1!important
 }
 
 .text-secondary {
@@ -379,8 +379,8 @@ a:hover {
 }
 
 .btn-primary {
-	background-color: #fff2f2;
-	border-color: #fff2f2
+	background-color: #f1f1f1;
+	border-color: #f1f1f1
 }
 
 .btn-primary:active,
