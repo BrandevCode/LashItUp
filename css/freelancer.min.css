@@ -54,7 +54,7 @@ hr.star-light {
 
 hr.star-light:after {
 	color: #fff;
-	background-color: #fff2f2
+	background-color: #f1f1f1
 }
 
 hr.star-dark {
@@ -62,7 +62,7 @@ hr.star-dark {
 }
 
 hr.star-dark:after {
-	color: #c49191;
+	color: #e2e2e2;
 	background-color: #fff
 }
 
@@ -129,7 +129,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -138,13 +138,13 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 #mainNav .navbar-toggler {
 	font-size: 80%;
 	padding: .8rem;
-	background-color: #af7c7c!important
+	background-color: #747474!important
 }
 
 @media (min-width:992px) {
@@ -164,13 +164,13 @@ section h2 {
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
 		color: #fff;
-		background: #af7c7c
+		background: #747474
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
 		color: #fff;
-		background: #af7c7c
+		background: #747474
 	}
 	#mainNav.navbar-shrink {
 		padding-top: .5rem;
@@ -326,7 +326,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 form .row:first-child .floating-label-form-group {
@@ -336,7 +336,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background-color: #c49191;
+	background-color: #b1b1b1;
 	color: #fff
 }
 
@@ -345,13 +345,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 a:active,
 a:focus,
 a:hover {
-	color: #fff2f2
+	color: #f1f1f1
 }
 
 .btn {
@@ -359,11 +359,11 @@ a:hover {
 }
 
 .bg-primary {
-	background-color: #fff2f2!important
+	background-color: #f1f1f1!important
 }
 
 .bg-secondary {
-	background-color: #c49191!important
+	background-color: #b1b1b1!important
 }
 
 .text-title {
@@ -371,7 +371,7 @@ a:hover {
 }
 
 .text-primary {
-	color: #fff2f2!important
+	color: #f1f1f1!important
 }
 
 .text-secondary {
@@ -379,25 +379,25 @@ a:hover {
 }
 
 .btn-primary {
-	background-color: #fff2f2;
-	border-color: #fff2f2
+	background-color: #f1f1f1;
+	border-color: #f1f1f1
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #af7c7c;
-	border-color: #af7c7c
+	background-color: #747474;
+	border-color: #747474
 }
 
 .btn-secondary {
-	background-color: #c49191;
-	border-color: #c49191
+	background-color: #e2e2e2;
+	border-color: #e2e2e2
 }
 
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-	background-color: #af7c7c;
-	border-color: #af7c7c
+	background-color: #747474;
+	border-color: #747474
 }
