@@ -7,11 +7,12 @@
  */
 
 body {
-	font-family: Garamond
+	font-family: Garamond;
 }
 
 .lead {
 	font-size: 24px;
+	padding: 2.5em;
   }
 
 h1,
@@ -21,7 +22,7 @@ h4,
 h5,
 h6 {
 	font-weight: 700;
-	font-family: Times
+	font-family: Times;
 }
 
 hr.star-dark,
@@ -58,11 +59,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-	border-color: #b38c38
+	border-color: #b79b57
 }
 
 hr.star-dark:after {
-	color: #c49191;
+	color: #ffe8eb;
 	background-color: #fff
 }
 
@@ -112,29 +113,30 @@ section h2 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-weight: 700;
-	font-family: Times
+	font-family: Times;
 }
 
 #mainNav .navbar-brand {
-	color: #fff
+	color: #b79b57
 }
 
 #mainNav .navbar-nav {
 	margin-top: 1rem;
+	font-size: .75em;
 	letter-spacing: .0625rem
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-	color: #fff
+	color: #c2a6b3
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-	color: #fff2f2
+	color: #918080
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-	color: #fff
+	color: #c2a6b3
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -142,9 +144,8 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-	font-size: 80%;
 	padding: .8rem;
-	background-color: #af7c7c!important
+	background-color: #c2a6b3!important
 }
 
 @media (min-width:992px) {
@@ -164,13 +165,13 @@ section h2 {
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
 		color: #fff;
-		background: #af7c7c
+		background: #c2a6b3
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
 		color: #fff;
-		background: #af7c7c
+		background: #c2a6b3
 	}
 	#mainNav.navbar-shrink {
 		padding-top: .5rem;
@@ -310,8 +311,6 @@ header.masthead h2 {
 	margin: 0;
 	-webkit-transition: top .3s ease, opacity .3s ease;
 	transition: top .3s ease, opacity .3s ease;
-	vertical-align: middle;
-	vertical-align: baseline;
 	opacity: 0
 }
 
@@ -336,8 +335,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background-color: #c49191;
-	color: #fff
+	background-color: #ffe8eb;
+	color: #6e5e66
 }
 
 .copyright {
@@ -363,11 +362,11 @@ a:hover {
 }
 
 .bg-secondary {
-	background-color: #c49191!important
+	background-color: #ffe8eb!important
 }
 
 .text-title {
-	color: #b38c38!important
+	color: #b79b57!important
 }
 
 .text-primary {
@@ -386,18 +385,18 @@ a:hover {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #af7c7c;
-	border-color: #af7c7c
+	background-color: #c2a6b3;
+	border-color: #c2a6b3
 }
 
 .btn-secondary {
-	background-color: #c49191;
-	border-color: #c49191
+	background-color: #ffe8eb;
+	border-color: #ffe8eb
 }
 
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-	background-color: #af7c7c;
-	border-color: #af7c7c
+	background-color: #c2a6b3;
+	border-color: #c2a6b3
 }
