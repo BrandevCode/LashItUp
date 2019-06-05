@@ -11,8 +11,8 @@ body {
 }
 
 .lead {
-	font-size: calc(16px + 1vw);
-	padding: 2.5em;
+	font-size: calc(16.5px + 0.4vw);
+	padding: 0.5em 2.5em 0.5em 2.5em;
   }
 
 h1,
@@ -140,7 +140,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-	color: #fff2f2
+	color: #554446
 }
 
 #mainNav .navbar-toggler {
@@ -164,13 +164,13 @@ section h2 {
 		margin-top: 0
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-		color: #fff;
+		color: #ffffff;
 		background: #c2a6b3
 	}
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-		color: #fff;
+		color: #ffffff;
 		background: #c2a6b3
 	}
 	#mainNav.navbar-shrink {
@@ -336,7 +336,7 @@ form .row:first-child .floating-label-form-group {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	background-color: #ffe8eb;
-	color: #6e5e66
+	color: #000000
 }
 
 .copyright {
