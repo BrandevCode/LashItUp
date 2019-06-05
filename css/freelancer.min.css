@@ -18,11 +18,16 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
 	font-weight: 700;
 	font-family: Times;
+}
+
+h4 {
+	font-weight: 700;
+	font-family: Times;
+	font-size: 1.35em
 }
 
 hr.star-dark,
@@ -336,6 +341,7 @@ form .row:first-child .floating-label-form-group {
 	padding-top: 3.5rem;
 	padding-bottom: 3.5rem;
 	background-color: #ffe8eb;
+	font-size: calc(15px + 0.02vw);
 	color: #000000
 }
 
