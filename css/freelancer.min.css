@@ -64,7 +64,7 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-	border-color: #b79b57
+	border-color: #D4AF37
 }
 
 hr.star-dark:after {
@@ -122,7 +122,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-	color: #b79b57
+	color: #D4AF37
 }
 
 #mainNav .navbar-nav {
@@ -372,7 +372,7 @@ a:hover {
 }
 
 .text-title {
-	color: #b79b57!important
+	color: #D4AF37!important
 }
 
 .text-primary {
